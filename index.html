@@ -3,144 +3,237 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <!--<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="Js/slick.min.js"></script>
+    <script type="text/javascript" src="Js/slick.js"></script>
+    <script type="text/javascript" src="Js/slider-set.js"></script>
+    <script type="text/javascript" src="Js/jquery.inview.min.js"></script>
+    <script type="text/javascript" src="Js/inview-set.js"></script>
+    <link rel="stylesheet" href="css/style.css">
     <title>Portfolio</title>
 </head>
 
 <body>
     <div id="header">
-        <div id="navigation">
-            <nav>
-                <ul>
-                    <li><a href="#profile">Profile</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#self-study">Self Study</a></li>
-                    <li><a href="#unity">Unity</a></li>
-                    <li><a href="#maya">Maya</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav id="navigation">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#self-study">Self Study</a></li>
+                <li><a href="#unity">Unity</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
         <div id="main-visual">
-            <h1>Momoka<br>Hashimoto</h1>
+            <img src="Images/main-vis.png" alt="">
+            <!--<h1>Momoka<br>Hashimoto<br>写真変える！</h1>-->
         </div>
     </div>
 
     <div id="main">
-        <div id="profile">
-            <h2>Profile</h2>
-            <div id="name">
-                <h3>橋本 萌加</h3>
-                <p>ECCコンピューター専門学校<br>
-                    高度情報処理研究学科ゲーム<br>
-                    エキスパートコース<br>
-                    ゲームプログラム専攻<br>
-                    2年(2021年3月現在)
-                </p>
+        <div class="contents-yellow" id="profile">
+            <div class="inview">
+                <h2>Profile</h2>
+                <div id="profile-img-name">
+                    <img src="Images/mo-mon_16-9_2.jpg" alt="">
+                    <div id="name">
+                        <h3>橋本 萌加</h3>
+                        <p>ECCコンピューター専門学校<br>
+                            高度情報処理研究学科ゲーム<br>
+                            エキスパートコース<br>
+                            ゲームプログラム専攻<br>
+                            2年(2021年3月現在)
+                        </p>
+                    </div>
+                </div>
             </div>
 
-            <div class="left-box">
-                <h3>興味・関心</h3>
-                <p>ゲームプログラムに限らず、ゲームデザインや<br>
-                    グラフィックにも興味を持っている<br>
-                    <br>
-                    ゲームの面白さについて分析することが得意<br>
-                    幻想的な世界観や非現実的なものを好む<br>
-                    好きなゲームは「Sky 星を紡ぐ子どもたち」<br>
-                    <br>
-                    「モノを美しく見せること」にこだわりを持つ
-                </p>
-            </div>
+            <div class="inview">
+                <div class="text-box">
+                    <div class="left-box">
+                        <h3>興味・関心</h3>
+                        <p>ゲームプログラムに限らず、ゲームデザインや<br>
+                            グラフィックにも興味を持っている<br>
+                            <br>
+                            ゲームの面白さについて分析することが得意<br>
+                            幻想的な世界観や非現実的なものを好む<br>
+                            好きなゲームは「Sky 星を紡ぐ子どもたち」<br>
+                            <br>
+                            「モノを美しく見せること」にこだわりを持つ
+                        </p>
+                    </div>
 
-            <div class="right-box">
-                <h3>資格</h3>
-                <p>CGエンジニア 検定ベーシック 合格<br>
-                    フルコンタクト空手 1級</p>
-                <h3>今後取得したい資格</h3>
-                <p>CGクリエイター検定<br>
-                    色彩検定など</p>
-            </div>
-        </div>
-
-        <div id="skills">
-            <h2>Skills</h2>
-            <div class="left-box">
-
-            </div>
-
-            <div class="right-box">
-
+                    <div class="right-box">
+                        <h3>資格</h3>
+                        <p>CGエンジニア 検定ベーシック 合格<br>
+                            フルコンタクト空手 1級</p>
+                        <h3>今後取得したい資格</h3>
+                        <p>CGクリエイター検定<br>
+                            色彩検定など</p>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div id="self-study">
-            <h2>Self Study</h2>
-            <div class="left-box">
-                <h3>内容</h3>
-                <p>Unityでシェーダーの仕組みを勉強する</p>
-                <h3>学習理由</h3>
-                <p>3Dのゲームを制作していく中で、見た目を<br>
-                    良くする技術があるということを知り、<br>
-                    試してみたくなったから</p>
-                <h3>学習内容</h3>
-                <p>Webサイトにてシェーダーの種類を調べ、<br>
-                    Unityでの実装方法を見ながら作成<br>
-                    仕組みに関してアナログでノートに書き記した</p>
+        <div class="contents-white" id="skills">
+            <div class="inview">
+                <h2>Skills</h2>
             </div>
 
-            <div class="right-box">
-                <h3>学年</h3>
-                <p>2年生の6月</p>
-                <h3>工夫した点</h3>
-                <p>・Webサイトを見ながら学習するとどうしても<br>
-                    コピペになってしまうため、自分で理解する<br>
-                    ためにも内容をノートにまとめた<br>
-                    ・見ただけでわかるように、シェーダーを使用した<br>
-                    ものとしていないものとを並べた</p>
-                <h3>苦労した点</h3>
-                <p>3Dゲームの作成はまだ作成していなかったので、<br>
-                    光や法線などを理解するのが大変だった</p>
-            </div>
-        </div>
+            <div class="inview">
+                <div class="text-box">
+                    <div class="skill-box">
+                        <img src="Images/directx-11-logo.png" alt="">
+                        <div class="skill-text">
+                            <h3>DirectX 11</h3>
+                            <p>DirectX 11を使用した3Dのエンジンを作成</p>
+                        </div>
+                    </div>
 
-        <div id="unity">
-            <h2>Unity</h2>
-            <div class="left-box">
-                <h3>内容</h3>
-                <p>パックマンを3Dで作成したもの</p>
-                <h3>作成理由</h3>
-                <p>１人でゲームを作ってみたかったから<br>
-                    パックマンの敵の動きについて興味を持ったから</p>
-                <h3>作業手順</h3>
-                <p>1. Trelloにてタスクの書き出し<br>
-                    2. Assetの作成<br>
-                    3. Unityにてゲームを作成</p>
-            </div>
+                    <div class="skill-box">
+                        <img src="Images/unity.png" alt="">
+                        <div class="skill-text">
+                            <h3>Unity</h3>
+                            <p>2D・3Dゲームを制作、シェーダー、ナビゲーション</p>
+                        </div>
+                    </div>
 
-            <div class="right-box">
-                <h3>学年</h3>
-                <p>1年生の12月</p>
-                <h3>工夫した点</h3>
-                <p>・敵の動きを完全に再現するようにした<br>
-                    ・3Dにしたことによって敵の位置が見にくく<br>
-                    なった分、壁を透明にして移動を速くした</p>
-                <h3>苦労した点</h3>
-                <p>・敵が常に一定の場所で動き回る制御が大変だった<br>
-                    ・元々あるゲーム性を保ちつつ3Dの状態で<br>
-                    面白くするのが難しかった</p>
+                    <div class="skill-box">
+                        <img src="Images/cpp_logo.png" alt="">
+                        <div class="skill-text">
+                            <h3>C++</h3>
+                            <p>C++を使用した2D・3Dゲームを制作　　　</p>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <img src="Images/maya.png" alt="">
+                        <div class="skill-text">
+                            <h3>Maya</h3>
+                            <p>ポリゴン数の少ない3Dモデル、アニメーション</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div id="maya">
-            <h2>Maya</h2>
+        <div class="contents-yellow" id="self-study">
+            <div class="inview">
+                <h2>Self Study</h2>
+                <ul class="slider">
+                    <li><img src="Images/unity_01.PNG" alt=""></li>
+                    <li><img src="Images/unity_02.PNG" alt=""></li>
+                    <li><img src="Images/unity_03.PNG" alt=""></li>
+                    <li><img src="Images/unity_04.PNG" alt=""></li>
+                    <li><img src="Images/unity_05.PNG" alt=""></li>
+                    <li><img src="Images/unity_06.PNG" alt=""></li>
+                </ul>
+            </div>
 
+            <div class="inview">
+                <div class="text-box">
+                    <div class="left-box">
+                        <h3>内容</h3>
+                        <p>Unityでシェーダーの仕組みを勉強する</p>
+                        <h3>学習理由</h3>
+                        <p>3Dのゲームを制作していく中で、見た目を<br>
+                            良くする技術があるということを知り、<br>
+                            試してみたくなったから</p>
+                        <h3>学習内容</h3>
+                        <p>Webサイトにてシェーダーの種類を調べ、<br>
+                            Unityでの実装方法を見ながら作成<br>
+                            仕組みに関してアナログでノートに書き記した</p>
+                    </div>
+
+                    <div class="right-box">
+                        <h3>学年</h3>
+                        <p>2年生の6月</p>
+                        <h3>工夫した点</h3>
+                        <p>・Webサイトを見ながら学習するとどうしても<br>
+                            コピペになってしまうため、自分で理解する<br>
+                            ためにも内容をノートにまとめた<br>
+                            ・見ただけでわかるように、シェーダーを使用した<br>
+                            ものとしていないものとを並べた</p>
+                        <h3>苦労した点</h3>
+                        <p>3Dゲームはまだ作成したことがなかったので、<br>
+                            光や法線などを理解するのが大変だった</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div id="contact">
-            <h2>Contact</h2>
+        <div class="contents-white" id="unity">
+            <div class="inview">
+                <h2>Unity</h2>
+                <div id="unity-imgs">
+                    <div id="unity-mov">
+                        <video src="Images/pacman.mp4" controls></video>
+                    </div>
+                    <div id="unity-img">
+                        <img src="Images/pacman_01.png" alt="">
+                        <img src="Images/pacman_02.png" alt="">
+                        <div>
+                            <img src="Images/pacman_03.png" alt="">
+                            <img src="Images/pacman_04.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="inview">
+                <div class="text-box">
+                    <div class="left-box">
+                        <h3>内容</h3>
+                        <p>パックマンを3Dで作成したもの</p>
+                        <h3>作成理由</h3>
+                        <p>１人でゲームを作ってみたかったから<br>
+                            パックマンの敵の動きについて興味を持ったから</p>
+                        <h3>作業手順</h3>
+                        <p>1. Trelloにてタスクの書き出し<br>
+                            2. Assetの作成<br>
+                            3. Unityにてゲームを作成</p>
+                    </div>
+
+                    <div class="right-box">
+                        <h3>学年</h3>
+                        <p>1年生の12月</p>
+                        <h3>工夫した点</h3>
+                        <p>・敵の動きを完全に再現するようにした<br>
+                            ・3Dにしたことによって敵の位置が見にくく<br>
+                            なった分、壁を透明にして移動を速くした</p>
+                        <h3>苦労した点</h3>
+                        <p>・敵が常に一定の場所で動き回る制御が大変だった<br>
+                            ・元々あるゲーム性を保ちつつ3Dの状態で<br>
+                            面白くするのが難しかった</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="contents-yellow" id="contact">
+            <!--<h2>Contact</h2>-->
+            <div class="inview">
+                <ul>
+                    <a href="https://twitter.com/?lang=ja">
+                        <img src="Images/twitter.png" alt="">
+                    </a>
+                    <a href="https://www.facebook.com/MomokaHashimoto1217">
+                        <img src="Images/facebook.png" alt="">
+                    </a>
+                    <a href="mailto:pukulicchi.1217&#64;gmail.com">
+                        <img src="Images/mail.png" alt="">
+                    </a>
+                </ul>
+            </div>
         </div>
     </div>
-</body>
-
-</html>
+</body></html>
